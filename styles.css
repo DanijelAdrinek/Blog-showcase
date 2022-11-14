@@ -1,5 +1,10 @@
 /* Mobile */
 
+html {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 body {
     overflow-x: hidden;
     margin: 0;
@@ -35,6 +40,7 @@ a.view-all {
 
 section.image-section {
     width: calc(50% + 116px);
+    max-width: 100%;
     margin: auto;
     margin-top: 32px;
     margin-bottom: 64px;
