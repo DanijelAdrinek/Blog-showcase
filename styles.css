@@ -190,12 +190,12 @@ h2.image-description {
         width: 65%;
     }
 
-    #graphic-orange {
+    img.graphic:first-child {
         width: 74.5%;
     }
 
     .top.left {
-        transform: translate(-50%, -19.3%);
+        transform: translate(-45%, -19.3%);
     }
     
     .top.right {
