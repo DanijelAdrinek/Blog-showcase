@@ -21,20 +21,26 @@ section.title-section {
 h1.title {
     font-size: 36px;
     font-weight: bold;
+    font-family: barlowCondensed;
     line-height: 110%;
     text-transform: uppercase;
 }
 
 p.slogan {
     font-size: 20px;
+    font-family: Rajdhani;
     line-height: 130%;
 }
 
 a.view-all {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 200;
+    font-family: barlowCondensed;
     line-height: 130%;
     text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
     color: black;
 }
 
@@ -109,6 +115,25 @@ img.graphic {
 
 h2.image-description {
     font-size: 24px;
+    font-family: barlowCondensed;
+    font-weight: 500;
     line-height: 110%;
+    text-transform: uppercase;
     margin-top: 32px;
+}
+
+.desktop {
+    display: none;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: barlowCondensed;
+    src: url(./assets/fonts/BarlowCondensed-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Rajdhani;
+    src: url(./assets/fonts/Rajdhani-Regular.ttf);
 }
