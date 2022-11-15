@@ -11,5 +11,5 @@
 * CSS3
 
 # 💻 Development
-1. git clone https://github.com/DanijelAdrinek/Image-and-Text.git
+1. git clone https://github.com/DanijelAdrinek/Blog-showcase.git
 2. run the HTML file in a browser
